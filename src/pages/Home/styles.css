@@ -1,0 +1,50 @@
+/* CONFIGURAÇÕES PADROES DE CSS */
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primeiro-padrao:#474747;
+    --primeiro-light:#727272;
+    --primeiro-dark:#202020;
+    --segundo-padrao:#d4dee1;
+    --segundo-light:#ffffff;
+    --segundo-dark:#a3acaf;
+}
+p{
+    color: var(--segundo-light);
+}
+.navegation{
+    width: 250px;
+    min-height: 960px;
+    height: 100%;
+    background-color:var(--primeiro-padrao);
+    z-index: 999;
+    position: fixed;
+}
+.ul{
+    margin-top: 15px;
+}
+.li{
+    color: var(--segundo-light);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    list-style: none;
+}
+.container-menu{
+    margin-top: 15px;
+    width: 180px;
+    min-height: 500px;
+    height: 100%;
+    margin-left: auto;
+    margin-left: auto;
+}
